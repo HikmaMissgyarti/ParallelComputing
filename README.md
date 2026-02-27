@@ -1,14 +1,11 @@
 # Parallel Computing — Matrix Example
 
-## 👤 Author
-
-Nama: **Nur Hikma Missgyarti**
-
+Nama: **Nur Hikma Missgyarti** <br>
 Mata Kuliah: **Komputasi Paralel & Sistem Terdistribusi**
 
 ---
 
-## 📌 Deskripsi Project
+## Deskripsi Project
 
 Project ini merupakan implementasi contoh arsitektur komputasi paralel berdasarkan klasifikasi Flynn, yaitu:
 
@@ -21,7 +18,7 @@ Semua contoh menggunakan operasi **penjumlahan matriks** agar perbedaan arsitekt
 
 ---
 
-## 🧠 Konsep Arsitektur
+## Konsep Arsitektur
 
 | Arsitektur | Konsep                            |
 | ---------- | --------------------------------- |
@@ -32,12 +29,12 @@ Semua contoh menggunakan operasi **penjumlahan matriks** agar perbedaan arsitekt
 
 ---
 
-## ▶️ Cara Menjalankan Program
+## Cara Menjalankan Program
 
-### 1️⃣ SISD
+### SISD
 
 ```
-python sisd.py
+python SISD.py
 ```
 
 ---
@@ -46,39 +43,39 @@ python sisd.py
 
 ```
 pip install numpy
-python simd.py
+python SIMD.py
 ```
 
 ---
 
-### 3️⃣ MISD
+### MISD
 
 ```
-python misd.py
-```
-
----
-
-### 4️⃣ MIMD
-
-```
-python mimd.py
+python MISD.py
 ```
 
 ---
 
-## 📊 Hasil Output
+### MIMD
+
+```
+python MIMD.py
+```
+
+---
+
+## Output
 
 ### SISD Output
 
 ```
-[[6, 8],
- [10, 12]]
+SISD: [[6, 8], [10, 12]]
 ```
 
 ### SIMD Output
 
 ```
+SIMD:
 [[ 6  8]
  [10 12]]
 ```
@@ -86,6 +83,7 @@ python mimd.py
 ### MISD Output
 
 ```
+MISD:
 Tambah: [[2, 3], [4, 5]]
 Kali: [[2, 4], [6, 8]]
 ```
@@ -93,12 +91,12 @@ Kali: [[2, 4], [6, 8]]
 ### MIMD Output
 
 ```
-[[6, 8], [10, 12]]
+MIMD:  [[6, 8], [10, 12]]
 ```
 
 ---
 
-## ⚖️ Analisis Perbedaan
+## Analisis Perbedaan
 
 | Arsitektur | Kelebihan                         | Kekurangan       |
 | ---------- | --------------------------------- | ---------------- |
@@ -109,13 +107,13 @@ Kali: [[2, 4], [6, 8]]
 
 ---
 
-## 🏆 Kesimpulan
+## Kesimpulan
 
-MIMD merupakan arsitektur paling powerful karena dapat menjalankan banyak instruksi pada banyak data secara paralel. Oleh karena itu, arsitektur ini paling banyak digunakan pada sistem modern seperti multi-core CPU dan distributed computing.
+MIMD merupakan arsitektur paling kuat karena dapat menjalankan banyak instruksi pada banyak data secara paralel. Oleh karena itu, arsitektur ini paling banyak digunakan pada sistem modern seperti multi-core CPU dan distributed computing.
 
 ---
 
-## 📎 Catatan
+## Catatan
 
 Project ini dibuat untuk memahami perbedaan konsep arsitektur paralel melalui implementasi langsung menggunakan Python.
 
