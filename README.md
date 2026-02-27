@@ -3,7 +3,7 @@
 ## 👤 Author
 
 Nama: **Nur Hikma Missgyarti**
-\nMata Kuliah: **Komputasi Paralel & Sistem Terdistribusi**
+Mata Kuliah: **Komputasi Paralel & Sistem Terdistribusi**
 
 ---
 
